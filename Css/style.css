@@ -419,3 +419,83 @@ body {
     align-items: center;
     justify-content: space-around;
 }
+
+.Team-sec{
+    margin-top: 80px;
+    margin-bottom:40px;
+    gap: 40px;
+}
+
+.card-top-contnet{
+    display: flex;
+    justify-content: space-around;
+}
+
+.custom-button-3 {
+    margin-top: 25px;
+    background-color: #191A23 !important;
+    color: #fff !important;
+    font-size: 20px;
+    padding: 20px 36px !important;
+    border-radius: 14px !important;
+
+}
+
+
+/* Slider */
+
+/* Swiper Container */
+.swiper {
+    width: 1040px;
+    height: auto;
+    padding: 84px !important;
+    background-color: #191A23;
+    border-radius: 45px;
+}
+
+/* Slide */
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+}
+
+/* Testimonial Card */
+
+.testimonial-card {
+  
+    margin: 20px; 
+    padding: 42px;
+    border: 2px solid #66ff66;
+    border-radius: 10px;
+    background-color: #22232A;
+    color: #fff;
+    text-align: center;
+  
+}
+
+/* Quote Text */
+.quote {
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+/* Testimonial Footer */
+.testimonial-footer {
+    border-top: 1px solid #66ff66;
+    padding-top: 15px;
+    margin-top: 15px;
+}
+
+/* Name */
+.name {
+    font-size: 18px;
+    color: #66ff66;
+    margin: 5px 0;
+}
+
+/* Designation */
+.designation {
+    font-size: 14px;
+    color: #BBB;
+}
