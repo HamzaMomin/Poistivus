@@ -499,3 +499,138 @@ body {
     font-size: 14px;
     color: #BBB;
 }
+
+
+/* contact us */
+
+.gray-container{
+    background-color: #F3F3F3;
+    width: 1040px;
+    height: 625px;
+    border-radius: 45px;
+}
+
+.form-container {
+   
+    border-radius: 10px;
+    max-width: 450px;
+    margin: auto;
+    
+}
+
+.form-check-input.custom-radio {
+    border: 2px solid #000;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+.form-check-input.custom-radio:checked {
+    background-color: #7ED957; /* Light green */
+    border-color: #7ED957;
+}
+
+.form-control {
+    border: 2px solid #000 !important;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 16px;
+    outline: none ;
+}
+
+.form-control::placeholder {
+    color: #aaa;
+}
+
+.form-control:focus {
+    border: 2px solid #000 !important; /* Ensures the border remains black */
+    box-shadow: none; /* Removes default Bootstrap blue glow */
+    outline: none; /* Removes default outline */
+}
+
+
+
+.btn-dark {
+    background-color: #191A23;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 18px;
+}
+
+/* Footer section */
+
+#footer{
+    margin-top: 140px;
+}
+
+.Footer-container{
+    background-color: #191A23 !important;
+    width: 1024px;
+    height: auto;
+    padding: 55.5px 60px !important;
+    border-top-left-radius: 45px;
+    border-top-right-radius: 45px ;
+}
+
+.footer-menu{
+    display: flex;
+    justify-content: center;
+    color : #fff ;
+    gap: 20px;
+}
+
+
+.social-icons{
+    display: flex;
+    gap: 20px;
+}
+
+.footer-heading{
+    color: #000;
+    background-color: #7ED957;
+    width: 136px !important;
+    padding: 7px !important;
+    margin-top: 66px !important ;
+    border-radius: 14px;
+    margin-bottom: 27px;
+}
+
+.footer-text{
+    color: #fff !important;
+}
+
+
+.form-container {
+    margin-top: 96px !important;
+    display: flex;
+    align-items: center;
+    gap: 20px; 
+    background-color: #292A32;
+    padding: 58px 40px !important;
+    border-radius: 14px;
+}
+
+.email-footer {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    border-radius: 10px;
+    outline: none;
+}
+
+.btn-footer {
+    background-color: #c8ff63;
+    color: black;
+    font-weight: 500;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-footer:hover {
+    background-color: #b3e857;
+}
