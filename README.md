@@ -1,7 +1,5 @@
 # Bootstrap-project
-A simple Bootstrap Practice Project.
-This project is only to understand a desktop layout like continer-fluid , container , row col-md-6, cards, css slide animation and swpier js for slides.
-
+A simple Bootstrap practice project. This project is designed to help understand desktop layouts, including container-fluid, container, row, col-md-6, cards, CSS slide animations, and Swiper.js for slides.
 
 
 
